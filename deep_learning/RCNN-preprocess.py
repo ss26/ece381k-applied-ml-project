@@ -6,7 +6,7 @@ from pathlib import Path
 from tqdm import tqdm
 
 # Installing necessary library for COCO format handling
-!pip install pycocotools
+# !pip install pycocotools
 
 # Setting the path for the dataset and reading the training events CSV file
 data_folder = Path("/kaggle/input/child-mind-institute-detect-sleep-states")

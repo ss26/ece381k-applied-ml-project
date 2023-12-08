@@ -74,7 +74,7 @@ model.compile(optimizer=Adam(learning_rate=0.0005),
               metrics=["accuracy"])
 
 # Training the model
-%%time
+# %%time
 history = model.fit(ds_train, epochs=20,
                     validation_data=ds_val,
                     callbacks=[early_stopping, checkpoint_callback],

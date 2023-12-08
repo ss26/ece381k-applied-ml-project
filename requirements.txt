@@ -1,0 +1,7 @@
+ipython==7.25.0
+pandas==1.5.3
+tensorflow==2.11.0
+torch==1.13.1
+torchvision==0.14.1
+tqdm==4.61.2
+utils==1.0.1
